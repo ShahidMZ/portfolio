@@ -39,6 +39,7 @@
                         "styles": [
                             "src/styles.css"
                         ],
+                        "baseHref": "/shahidmzubair/",
                         "server": "src/main.server.ts",
                         "outputMode": "server",
                         "security": {
