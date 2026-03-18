@@ -1,0 +1,22 @@
+<div class="navbar fixed top-0 flex w-full z-50 transition-all duration-300 scrollable-div"
+    [ngClass]="{'bg-base-100 backdrop-blur-md shadow-md': isScrolled, 'bg-transparent text-primary-content': !isScrolled}">
+    <div class="navbar-start w-fit">
+        <a class="mx-3 text-xl font-black tracking-tighter" href="/"
+            [class.text-base-content]="isScrolled">
+            <span class="hover:text-primary transition-colors mr-1">SHAHIDMZUBAIR</span><span class="text-primary">.</span>
+        </a>
+    </div>
+    <div class="navbar-center flex">
+        <ul class="menu menu-horizontal px-1 font-semibold cursor-pointer" 
+            [class.text-base-content]="isScrolled">
+            <li class="hover:text-primary transition-colors"><a href="#home">Home</a></li>
+            <li class="hover:text-primary transition-colors"><a href="#experience">Experience</a></li>
+            <li class="hover:text-primary transition-colors"><a href="#skills">Skills</a></li>
+            <li class="hover:text-primary transition-colors"><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <!-- <div class="mx-5 min-w-25">
+        <a class="btn btn-primary rounded-full px-6 shadow-md hover:shadow-lg transition-all" 
+            [ngClass]="{'btn-sm md:btn-md': true}" href="#contact">Hire Me!</a>
+    </div> -->
+</div>

@@ -1,0 +1,25 @@
+.customShadow {
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+}
+
+.background {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.8), 
+        rgba(0, 0, 0, 0.9)
+    ), url('/img/bg11.png');
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    /* background-blend-mode: darken; */
+}
+
+.info-background {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.1), 
+        rgba(0, 0, 0, 0.5)
+    ), url('/img/bg5.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(70, 18, 224, 0.623);
+    background-blend-mode: darken;
+}
