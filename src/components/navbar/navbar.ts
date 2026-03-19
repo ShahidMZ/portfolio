@@ -17,7 +17,7 @@ export class Navbar {
 
     toggleDrawer() {
         const sidenav = document.getElementById("mySidenav");
-        const sidenavWidth = "200px";
+        const sidenavWidth = "250px";
         
         if (sidenav) {
             if (sidenav.style.width == sidenavWidth) {
