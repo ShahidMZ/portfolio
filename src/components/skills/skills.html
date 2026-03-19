@@ -1,4 +1,6 @@
-<section class="py-32 px-6 md:px-12 bg-base-200 cursor-default background" id="skills">
+<section class="py-32 px-6 md:px-12 bg-base-200 cursor-default background"
+    style="background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url('/img/bg10.png');"
+    id="skills">
     <div class="max-w-7xl mx-auto">
 
         <div class="text-center mb-20" appScrollAnimation [hiddenClass]="'opacity-0 translate-y-10'"
@@ -16,14 +18,15 @@
 
             <!-- Technologies -->
             <div class="grid grid-cols-4 gap-3 border rounded-2xl pb-3 lg:pb-0 overflow-hidden technologies-border">
-                <div class="flex flex-col items-center p-7 lg:col-span-1 col-span-4 bg-primary text-primary-content rounded-lg cursor-default technologies-background">
+                <div class="flex flex-col items-center p-7 lg:col-span-1 col-span-4 bg-primary text-primary-content rounded-lg cursor-default technologies-background"
+                    style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('/img/bg10.png');">
                     <h3 class="lg:text-2xl text-xl font-bold my-auto pb-1">Technologies</h3>
                 </div>
                 <div class="marquee-wrapper col-span-4 lg:col-span-3 max-h-20 my-auto">
                     <div class="marquee-content scroll-left">
                         @for (skill of technologies; track skill.name; let i = $index) {
-                        <div
-                            class="card bg-primary shadow-xl rounded-full border border-base-300 min-w-40 shrink-0 cursor-default hover:border-primary transition-colors technologies-background1">
+                        <div class="card bg-primary shadow-xl rounded-full border border-base-300 min-w-40 shrink-0 cursor-default hover:border-primary transition-colors technologies-background1"
+                            style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('/img/bg10.png');">
                             <div class="card-body flex justify-center text-center p-4 flex-row gap-3">
                                 <img src="{{ skill.icon }}" alt="{{ skill.name }}" height="25" width="25">
                                 <h3 class="card-title text-sm">{{ skill.name }}</h3>
@@ -32,8 +35,8 @@
                         }
                         <!-- Duplicate for infinite scroll -->
                         @for (skill of technologies; track 'dup-'+skill.name; let i = $index) {
-                        <div
-                            class="card bg-primary shadow-xl rounded-full border border-base-300 min-w-40 shrink-0 cursor-default hover:border-primary transition-colors technologies-background1">
+                        <div class="card bg-primary shadow-xl rounded-full border border-base-300 min-w-40 shrink-0 cursor-default hover:border-primary transition-colors technologies-background1"
+                            style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('/img/bg10.png');">
                             <div class="card-body flex justify-center text-center p-4 flex-row gap-4">
                                 <img src="{{ skill.icon }}" alt="{{ skill.name }}" height="25" width="25">
                                 <h3 class="card-title text-sm">{{ skill.name }}</h3>
@@ -52,14 +55,15 @@
 
             <!-- Languages -->
             <div class="grid grid-cols-4 gap-3 border rounded-2xl pb-3 lg:pb-0 overflow-hidden languages-border">
-                <div class="flex flex-col items-center p-7 lg:col-span-1 col-span-4 bg-primary text-primary-content rounded-lg cursor-default languages-background">
+                <div class="flex flex-col items-center p-7 lg:col-span-1 col-span-4 bg-primary text-primary-content rounded-lg cursor-default languages-background"
+                    style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('/img/bg10.png');">
                     <h3 class="lg:text-2xl text-xl font-bold my-auto pb-1">Languages</h3>
                 </div>
                 <div class="marquee-wrapper col-span-4 lg:col-span-3 max-h-20 my-auto">
                     <div class="marquee-content scroll-right">
                         @for (skill of languages; track skill.name; let i = $index) {
-                        <div
-                            class="card bg-primary shadow-xl rounded-full border border-base-300 min-w-40 shrink-0 cursor-default hover:border-primary transition-colors languages-background1">
+                        <div class="card bg-primary shadow-xl rounded-full border border-base-300 min-w-40 shrink-0 cursor-default hover:border-primary transition-colors languages-background1"
+                            style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/img/bg10.png');">
                             <div class="card-body flex justify-center text-center p-4 flex-row gap-3">
                                 <img src="{{ skill.icon }}" alt="{{ skill.name }}" height="25" width="25">
                                 <h3 class="card-title text-sm">{{ skill.name }}</h3>
@@ -68,8 +72,8 @@
                         }
                         <!-- Duplicate for infinite scroll -->
                         @for (skill of languages; track 'dup-'+skill.name; let i = $index) {
-                        <div
-                            class="card bg-primary shadow-xl rounded-full border border-base-300 min-w-40 shrink-0 cursor-default hover:border-primary transition-colors languages-background1">
+                        <div class="card bg-primary shadow-xl rounded-full border border-base-300 min-w-40 shrink-0 cursor-default hover:border-primary transition-colors languages-background1"
+                            style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/img/bg10.png');">
                             <div class="card-body flex justify-center text-center p-4 flex-row gap-4">
                                 <img src="{{ skill.icon }}" alt="{{ skill.name }}" height="25" width="25">
                                 <h3 class="card-title text-sm">{{ skill.name }}</h3>
@@ -88,14 +92,15 @@
 
             <!-- Frameworks -->
             <div class="grid grid-cols-4 gap-3 border rounded-2xl pb-3 lg:pb-0 overflow-hidden frameworks-border">
-                <div class="flex flex-col items-center p-7 lg:col-span-1 col-span-4 bg-primary text-primary-content rounded-lg cursor-default frameworks-background">
+                <div class="flex flex-col items-center p-7 lg:col-span-1 col-span-4 bg-primary text-primary-content rounded-lg cursor-default frameworks-background"
+                    style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('/img/bg10.png');">
                     <h3 class="lg:text-2xl text-xl font-bold my-auto pb-1">Frameworks</h3>
                 </div>
                 <div class="marquee-wrapper col-span-4 lg:col-span-3 max-h-20 my-auto">
                     <div class="marquee-content scroll-left">
                         @for (skill of frameworks; track skill.name; let i = $index) {
-                        <div
-                            class="card bg-primary shadow-xl rounded-full border border-base-300 min-w-40 shrink-0 cursor-default hover:border-primary transition-colors frameworks-background1">
+                        <div class="card bg-primary shadow-xl rounded-full border border-base-300 min-w-40 shrink-0 cursor-default hover:border-primary transition-colors frameworks-background1"
+                            style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/img/bg10.png');">
                             <div class="card-body flex justify-center text-center p-4 flex-row gap-3">
                                 <img src="{{ skill.icon }}" alt="{{ skill.name }}" height="25" width="25">
                                 <h3 class="card-title text-sm">{{ skill.name }}</h3>
@@ -104,8 +109,8 @@
                         }
                         <!-- Duplicate for infinite scroll -->
                         @for (skill of frameworks; track 'dup-'+skill.name; let i = $index) {
-                        <div
-                            class="card bg-primary shadow-xl rounded-full border border-base-300 min-w-40 shrink-0 cursor-default hover:border-primary transition-colors frameworks-background1">
+                        <div class="card bg-primary shadow-xl rounded-full border border-base-300 min-w-40 shrink-0 cursor-default hover:border-primary transition-colors frameworks-background1"
+                            style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/img/bg10.png');">
                             <div class="card-body flex justify-center text-center p-4 flex-row gap-4">
                                 <img src="{{ skill.icon }}" alt="{{ skill.name }}" height="25" width="25">
                                 <h3 class="card-title text-sm">{{ skill.name }}</h3>
@@ -124,14 +129,15 @@
 
             <!-- IDEs -->
             <div class="grid grid-cols-4 gap-3 border rounded-2xl pb-3 lg:pb-0 overflow-hidden ides-border">
-                <div class="flex flex-col items-center p-7 lg:col-span-1 col-span-4 bg-primary text-primary-content rounded-lg cursor-default ides-background">
+                <div class="flex flex-col items-center p-7 lg:col-span-1 col-span-4 bg-primary text-primary-content rounded-lg cursor-default ides-background"
+                    style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('/img/bg10.png');">
                     <h3 class="lg:text-2xl text-xl font-bold my-auto pb-1">Software</h3>
                 </div>
                 <div class="marquee-wrapper col-span-4 lg:col-span-3 max-h-20 my-auto">
                     <div class="marquee-content scroll-right">
                         @for (skill of IDEs; track skill.name; let i = $index) {
-                        <div
-                            class="card bg-primary shadow-xl rounded-full border border-base-300 min-w-40 shrink-0 cursor-default hover:border-primary transition-colors ides-background1">
+                        <div class="card bg-primary shadow-xl rounded-full border border-base-300 min-w-40 shrink-0 cursor-default hover:border-primary transition-colors ides-background1"
+                            style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/img/bg10.png');">
                             <div class="card-body flex justify-center text-center p-4 flex-row gap-3">
                                 <img src="{{ skill.icon }}" alt="{{ skill.name }}" height="25" width="25">
                                 <h3 class="card-title text-sm">{{ skill.name }}</h3>
@@ -140,8 +146,8 @@
                         }
                         <!-- Duplicate for infinite scroll -->
                         @for (skill of IDEs; track 'dup-'+skill.name; let i = $index) {
-                        <div
-                            class="card bg-primary shadow-xl rounded-full border border-base-300 min-w-40 shrink-0 cursor-default hover:border-primary transition-colors ides-background1">
+                        <div class="card bg-primary shadow-xl rounded-full border border-base-300 min-w-40 shrink-0 cursor-default hover:border-primary transition-colors ides-background1"
+                            style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/img/bg10.png');">
                             <div class="card-body flex justify-center text-center p-4 flex-row gap-4">
                                 <img src="{{ skill.icon }}" alt="{{ skill.name }}" height="25" width="25">
                                 <h3 class="card-title text-sm">{{ skill.name }}</h3>
@@ -160,14 +166,15 @@
 
             <!-- Databases -->
             <div class="grid grid-cols-4 gap-3 border rounded-2xl pb-3 lg:pb-0 overflow-hidden databases-border">
-                <div class="flex flex-col items-center p-7 lg:col-span-1 col-span-4 bg-primary text-primary-content rounded-lg cursor-default databases-background">
+                <div class="flex flex-col items-center p-7 lg:col-span-1 col-span-4 bg-primary text-primary-content rounded-lg cursor-default databases-background"
+                    style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('/img/bg10.png');">
                     <h3 class="lg:text-2xl text-xl font-bold my-auto pb-1">Databases</h3>
                 </div>
                 <div class="marquee-wrapper col-span-4 lg:col-span-3 max-h-20 my-auto">
                     <div class="marquee-content scroll-left">
                         @for (skill of databases; track skill.name; let i = $index) {
-                        <div
-                            class="card bg-primary shadow-xl rounded-full border border-base-300 min-w-40 shrink-0 cursor-default hover:border-primary transition-colors databases-background1">
+                        <div class="card bg-primary shadow-xl rounded-full border border-base-300 min-w-40 shrink-0 cursor-default hover:border-primary transition-colors databases-background1"
+                            style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/img/bg10.png');">
                             <div class="card-body flex justify-center text-center p-4 flex-row gap-3">
                                 <img src="{{ skill.icon }}" alt="{{ skill.name }}" height="25" width="25">
                                 <h3 class="card-title text-sm">{{ skill.name }}</h3>
@@ -176,8 +183,8 @@
                         }
                         <!-- Duplicate for infinite scroll -->
                         @for (skill of databases; track 'dup-'+skill.name; let i = $index) {
-                        <div
-                            class="card bg-primary shadow-xl rounded-full border border-base-300 min-w-40 shrink-0 cursor-default hover:border-primary transition-colors databases-background1">
+                        <div class="card bg-primary shadow-xl rounded-full border border-base-300 min-w-40 shrink-0 cursor-default hover:border-primary transition-colors databases-background1"
+                            style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/img/bg10.png');">
                             <div class="card-body flex justify-center text-center p-4 flex-row gap-4">
                                 <img src="{{ skill.icon }}" alt="{{ skill.name }}" height="25" width="25">
                                 <h3 class="card-title text-sm">{{ skill.name }}</h3>
@@ -196,14 +203,15 @@
 
             <!-- DevOps Tools -->
             <div class="grid grid-cols-4 gap-3 border rounded-2xl pb-3 lg:pb-0 overflow-hidden tools-border">
-                <div class="flex flex-col items-center p-7 lg:col-span-1 col-span-4 bg-primary text-primary-content rounded-lg cursor-default tools-background">
+                <div class="flex flex-col items-center p-7 lg:col-span-1 col-span-4 bg-primary text-primary-content rounded-lg cursor-default tools-background"
+                    style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('/img/bg10.png');">
                     <h3 class="lg:text-2xl text-xl font-bold my-auto pb-1">DevOps Tools</h3>
                 </div>
                 <div class="marquee-wrapper col-span-4 lg:col-span-3 max-h-20 my-auto">
                     <div class="marquee-content scroll-right">
                         @for (skill of tools; track skill.name; let i = $index) {
-                        <div
-                            class="card bg-primary shadow-xl rounded-full border border-base-300 min-w-40 shrink-0 cursor-default hover:border-primary transition-colors tools-background1">
+                        <div class="card bg-primary shadow-xl rounded-full border border-base-300 min-w-40 shrink-0 cursor-default hover:border-primary transition-colors tools-background1"
+                            style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/img/bg10.png');">
                             <div class="card-body flex justify-center text-center p-4 flex-row gap-3">
                                 <img src="{{ skill.icon }}" alt="{{ skill.name }}" height="25" width="25">
                                 <h3 class="card-title text-sm">{{ skill.name }}</h3>
@@ -212,8 +220,8 @@
                         }
                         <!-- Duplicate for infinite scroll -->
                         @for (skill of tools; track 'dup-'+skill.name; let i = $index) {
-                        <div
-                            class="card bg-primary shadow-xl rounded-full border border-base-300 min-w-40 shrink-0 cursor-default hover:border-primary transition-colors tools-background1">
+                        <div class="card bg-primary shadow-xl rounded-full border border-base-300 min-w-40 shrink-0 cursor-default hover:border-primary transition-colors tools-background1"
+                            style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/img/bg10.png');">
                             <div class="card-body flex justify-center text-center p-4 flex-row gap-4">
                                 <img src="{{ skill.icon }}" alt="{{ skill.name }}" height="25" width="25">
                                 <h3 class="card-title text-sm">{{ skill.name }}</h3>

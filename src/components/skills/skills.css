@@ -1,10 +1,6 @@
 .background {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8),
-            rgba(0, 0, 0, 0.9)), url('/img/bg10.png');
     background-attachment: fixed;
     background-size: cover;
-    /* background-color: rgba(0, 0, 0, 0.8); */
-    /* background-blend-mode: darken; */
 }
 
 .marquee-wrapper {
@@ -57,10 +53,6 @@
 }
 
 .technologies-background {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.1), 
-        rgba(0, 0, 0, 0.5)
-    ), url('/img/bg10.png');
     background-attachment: fixed;
     background-size: cover;
     background-color: rgba(70, 18, 224, 0.623);
@@ -68,10 +60,6 @@
 }
 
 .technologies-background1 {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.1), 
-        rgba(0, 0, 0, 0.5)
-    ), url('/img/bg10.png');
     background-attachment: fixed;
     background-size: auto;
     background-color: rgba(70, 18, 224, 0.623);
@@ -84,10 +72,6 @@
 }
 
 .languages-background {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.1), 
-        rgba(0, 0, 0, 0.5)
-    ), url('/img/bg10.png');
     background-attachment: fixed;
     background-size: cover;
     background-color: rgba(224, 183, 18, 0.623);
@@ -95,10 +79,6 @@
 }
 
 .languages-background1 {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.5), 
-        rgba(0, 0, 0, 0.7)
-    ), url('/img/bg10.png');
     background-attachment: fixed;
     background-size: auto;
     background-color: rgba(224, 183, 18, 0.623);
@@ -111,10 +91,6 @@
 }
 
 .frameworks-background {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.1), 
-        rgba(0, 0, 0, 0.5)
-    ), url('/img/bg10.png');
     background-attachment: fixed;
     background-size: cover;
     background-color: rgba(30, 211, 24, 0.63);
@@ -122,10 +98,6 @@
 }
 
 .frameworks-background1 {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.5), 
-        rgba(0, 0, 0, 0.7)
-    ), url('/img/bg10.png');
     background-attachment: fixed;
     background-size: auto;
     background-color: rgba(30, 211, 24, 0.63);
@@ -138,10 +110,6 @@
 }
 
 .ides-background {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.1), 
-        rgba(0, 0, 0, 0.5)
-    ), url('/img/bg10.png');
     background-attachment: fixed;
     background-size: cover;
     background-color: rgba(224, 18, 32, 0.623);
@@ -149,10 +117,6 @@
 }
 
 .ides-background1 {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.5), 
-        rgba(0, 0, 0, 0.7)
-    ), url('/img/bg10.png');
     background-attachment: fixed;
     background-size: auto;
     background-color: rgba(224, 18, 32, 0.623);
@@ -165,10 +129,6 @@
 }
 
 .databases-background {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.1), 
-        rgba(0, 0, 0, 0.5)
-    ), url('/img/bg10.png');
     background-attachment: fixed;
     background-size: cover;
     background-color: rgba(218, 34, 169, 0.829);
@@ -176,10 +136,6 @@
 }
 
 .databases-background1 {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.5), 
-        rgba(0, 0, 0, 0.7)
-    ), url('/img/bg10.png');
     background-attachment: fixed;
     background-size: auto;
     background-color: rgba(218, 34, 169, 0.829);
@@ -192,10 +148,6 @@
 }
 
 .tools-background {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.1), 
-        rgba(0, 0, 0, 0.5)
-    ), url('/img/bg10.png');
     background-attachment: fixed;
     background-size: cover;
     background-color: rgba(34, 101, 218, 0.676);
@@ -203,10 +155,6 @@
 }
 
 .tools-background1 {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.5), 
-        rgba(0, 0, 0, 0.7)
-    ), url('/img/bg10.png');
     background-attachment: fixed;
     background-size: auto;
     background-color: rgba(34, 101, 218, 0.676);
