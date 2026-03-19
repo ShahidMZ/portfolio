@@ -1,13 +1,13 @@
 <div class="navbar fixed top-0 flex w-full z-50 transition-all duration-300 scrollable-div"
     [ngClass]="{'bg-base-100 backdrop-blur-md shadow-md': isScrolled, 'bg-transparent text-primary-content': !isScrolled}">
     <div class="navbar-start w-fit">
-        <a class="mx-3 text-xl font-black tracking-tighter" href="/portfolio/"
-            [class.text-base-content]="isScrolled">
-            <span class="hover:text-primary transition-colors mr-1">SHAHIDMZUBAIR</span><span class="text-primary">.</span>
+        <a class="mx-3 text-xl font-black tracking-tighter" href="/portfolio/" [class.text-base-content]="isScrolled">
+            <span class="hover:text-primary transition-colors mr-1">SHAHIDMZUBAIR</span><span
+                class="text-primary">.</span>
         </a>
     </div>
     <div class="navbar-center flex">
-        <ul class="menu menu-horizontal px-1 font-semibold cursor-pointer" 
+        <ul class="menu menu-horizontal px-1 font-semibold cursor-pointer hidden md:flex"
             [class.text-base-content]="isScrolled">
             <li class="hover:text-primary transition-colors"><a href="#home">Home</a></li>
             <li class="hover:text-primary transition-colors"><a href="#experience">Experience</a></li>
@@ -15,4 +15,13 @@
             <li class="hover:text-primary transition-colors"><a href="#contact">Contact</a></li>
         </ul>
     </div>
+    <div class="absolute right-5 hover:text-primary hover:scale-110 transition-all duration-200 cursor-pointer md:hidden">
+        <i class="fa-solid fa-bars fa-xl z-100" (click)="toggleDrawer()"></i>
+    </div>
+</div>
+<div id="mySidenav" class="sidenav">
+    <a href="#home" class="mt-5 text-white text-lg hover:text-primary transition-all duration-200" (click)="toggleDrawer()">Home</a>
+    <a href="#experience" class="text-white text-lg hover:text-primary transition-all duration-200" (click)="toggleDrawer()">Experience</a>
+    <a href="#skills" class="text-white text-lg hover:text-primary transition-all duration-200" (click)="toggleDrawer()">Skills</a>
+    <a href="#contact" class="text-white text-lg hover:text-primary transition-all duration-200" (click)="toggleDrawer()">Contact</a>
 </div>

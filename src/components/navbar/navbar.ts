@@ -14,4 +14,16 @@ export class Navbar {
     onWindowScroll() {
         this.isScrolled = window.scrollY > 50;
     }
+
+    toggleDrawer() {
+        const sidenav = document.getElementById("mySidenav");
+        
+        if (sidenav) {
+            if (sidenav.style.width == "250px") {
+                sidenav.style.width = "0px";
+            } else {
+                sidenav.style.width = "250px";
+            }
+        }
+    }
 }
