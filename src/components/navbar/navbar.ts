@@ -17,12 +17,13 @@ export class Navbar {
 
     toggleDrawer() {
         const sidenav = document.getElementById("mySidenav");
+        const sidenavWidth = "200px";
         
         if (sidenav) {
-            if (sidenav.style.width == "250px") {
+            if (sidenav.style.width == sidenavWidth) {
                 sidenav.style.width = "0px";
             } else {
-                sidenav.style.width = "250px";
+                sidenav.style.width = sidenavWidth;
             }
         }
     }
